@@ -1,0 +1,20 @@
+{
+  "sign_in": "Sign in",
+  "email_placeholder": "Email or mobile number",
+  "password_placeholder": "Password",
+  "remember_me": "Remember me",
+  "or": "OR",
+  "use_access_code": "Use a Sign-in Code",
+  "forgot_password": "Forgot password?",
+  "new_here": "New here? ",
+  "subscribe_now": "Subscribe now.",
+  "protected_by_recaptcha": "This page is protected by Google reCAPTCHA to ensure you are not a robot.",
+  "find_out_more": "Find out more.",
+  "questions": "Questions? Call 0800 591 3517",
+  "faq":"FAQ",
+  "help":"Help Center",
+  "terms":"Terms of Use",
+  "privacy":"Privacy",
+  "cookie":"Cookie Preferences",
+  "corporate":"Coporate Information"
+}

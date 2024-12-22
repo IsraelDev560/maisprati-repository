@@ -1,0 +1,20 @@
+{
+  "sign_in": "Entrar",
+  "email_placeholder": "Email ou número de celular",
+  "password_placeholder": "Senha",
+  "remember_me": "Lembre de mim",
+  "or": "OU",
+  "forgot_password": "Esqueceu a senha?",
+  "use_access_code": "Use um código de login",
+  "new_here": "Novo aqui? ",
+  "subscribe_now": "Inscreva-se agora.",
+  "protected_by_recaptcha": "Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.",
+  "find_out_more": "Saiba mais.",
+  "questions": "Dúvidas? Ligue 0800 591 2876",
+  "faq": "Perguntas frequentes",
+  "help": "Central de Ajuda",
+  "terms": "Termos de Uso",
+  "privacy": "Privacidade",
+  "cookie": "Preferências de cookies",
+  "corporate": "Informações corporativas"
+}

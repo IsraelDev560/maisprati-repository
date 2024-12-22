@@ -1,0 +1,200 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: #1343de;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.text {
+    overflow: hidden;
+}
+
+.text h3 img{
+    float: inline-end;
+    margin-left: 10px;
+}
+
+.text a{
+    color: white;
+    text-decoration: none;
+}
+
+.text a:hover{
+    color: #000;
+}
+
+.text h2,
+.text h3 {
+    float: left;
+    margin-right: 20px;
+    font-size: 1.2rem; 
+}
+
+.about-product {
+    float: right;
+}
+
+.text h3:last-of-type {
+    margin-right: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.section-product{
+    text-align: center;
+    font-size: 1.5rem; 
+}
+
+.product-description {
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cta-button {
+    display: block;
+    width: 50%; 
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #1343de;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.products {
+    text-align: center;
+    padding: 2% 0; 
+}
+
+.product-card {
+    display: inline-block;
+    width: 30%; 
+    margin: 1.5%;
+    padding: 0 2%; 
+    transition: 0.3s;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.product-card img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+}
+
+.product-card:hover {
+    box-shadow: 0 10px 16px rgba(0,0,0,0.2);
+}
+
+.product-card a{
+    background-color: #1343de;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.button-container{
+    padding: 20px;
+}
+.contact {
+    background-color: #eee;
+    padding: 2%;
+    clear: both;
+}
+
+.contact h3 {
+    padding: 15px;
+    width: 170px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.contact form {
+    width: 250px;
+    margin: auto;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+}
+
+.contact button {
+    display: block;
+    padding: 10px;
+    background-color: #1343de;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 9998;
+    display: none;
+}
+
+#result {
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 5%; 
+    border: 1px solid #ccc;
+    z-index: 9999;
+}
+
+.btn-close {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 5%; 
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem; 
+}
+
+@media (max-width: 1200px) {
+    .product-card {
+        width: 45%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        width: 80%; 
+    }
+}

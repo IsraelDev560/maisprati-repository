@@ -1,0 +1,1 @@
+## Repositório dedicado ao meu aprendizado no Curso: MaisPraTI 2024.
